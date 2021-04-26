@@ -6,7 +6,6 @@ class Core_logic:
     
     def __init__(self):
         self.jokesJSON = json.dumps(self.get_jokes())
-        print(self.jokesJSON)
 
     def get_jokes(self):
         filename = 'textAll.txt'
@@ -41,6 +40,3 @@ class Core_logic:
         json.dump(result, out_file, indent = 4, sort_keys = False)
         out_file.close()
         return result
-
-if __name__ == "__main__":
-    run = Core_logic()
