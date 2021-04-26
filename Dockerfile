@@ -4,7 +4,7 @@ WORKDIR /opt/app
 
 COPY . .
 
-RUN pip install --no-cache-dir flask python-dotenv
+RUN pip3 install --no-cache-dir flask flask_restful python-dotenv
 
 EXPOSE 2077
 

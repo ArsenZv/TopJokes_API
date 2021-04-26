@@ -1,11 +1,12 @@
 from flask import Flask, request
 from flask_restful import Resource, Api
-import Core_logic, json
+from Core_logic import Core_logic
+import json
 
 app = Flask(__name__)
-api = Api(app)
+coreLogic = Core_logic();
 
 #@app.route('/', methods=['GET'])
 @app.route('/')
 def pull_jokes():
-    return Core_logic.get_jokes()
+    return coreLogic.get_jokes()
