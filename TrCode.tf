@@ -1,7 +1,7 @@
 provider "aws" {
   profile = "default"
   region = "us-east-2"
-  shared_credentials_file = "/Users/arsenzvarych/TopJokes_API/credentials"
+  shared_credentials_file = "/Users/arsenzvarych/TopJokes_API/terraform_credentials"
 }
 
 resource "aws_vpc" "tja_vpc" {
