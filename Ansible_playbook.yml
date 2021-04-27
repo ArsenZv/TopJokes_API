@@ -45,7 +45,6 @@
       yum:
         name: jenkins
         state: present
-    #shell: yum install jenkins java-1.8.0-openjdk-devel -y
 
     - name: System daemon reload
       systemd:
