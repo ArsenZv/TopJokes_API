@@ -16,12 +16,14 @@ in a docker container and can be build, deployed and turned off usign Jenkins.
 
 * Deployed the microservice on AWS EC2 using CI/CD (Jenkins).
 
-## Access to Jenkins: ##
+## Access Details: ##
 
+### Jenkins ###
 Username:  | scalac
+------------- | -------------
 Password:  |  HeyJenkins!
 
-
+### REST API ###
  
 
 You can reach it at:
