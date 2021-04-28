@@ -7,7 +7,7 @@ in a docker container and can be build, deployed and turned off usign Jenkins.
 ## Steps performed: ##
 
 * Created a microservice serving REST API with GET calls returning 100jokes starting from the newest from bash.org.pl in JSON format;
-** I used Python with Flask micro web framework
+  * I used Python with Flask micro web framework
 
 * Service could be created and launched in Docker container.
 
