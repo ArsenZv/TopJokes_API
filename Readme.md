@@ -27,7 +27,7 @@ You can reach it via port 8080 at:
 [ec2-13-59-17-138.us-east-2.compute.amazonaws.com](http://ec2-13-59-17-138.us-east-2.compute.amazonaws.com:8080/)
 
 Or if you prefer:
-[13.59.17.138](http://13.59.17.138:8080/)
+[13.59.17.138](http://13.59.17.138:2077/)
 
 
 ### REST API ###
