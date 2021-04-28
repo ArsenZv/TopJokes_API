@@ -32,7 +32,9 @@ Or if you prefer:
 ### REST API ###
 
 **Port:** 2077
+
 **IP:** 13.59.17.138
+
 **Domain:** ec2-13-59-17-138.us-east-2.compute.amazonaws.com
 
 Combined URL to use:
