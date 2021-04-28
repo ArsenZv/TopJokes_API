@@ -12,6 +12,7 @@
     - name: Ensure a list of yum packages are installed
       yum:
         name: 
+          - git
           - python3
           - python-pip
           - yum-utils
@@ -48,6 +49,17 @@
           - java-1.8.0-openjdk-devel
         state: present
 
+    - name: Add the user 'jenkins', appending the group 'docker'
+      user:
+       name: jenkins
+       groups: docker
+       append: yes
+    
+    - name: Quick fix to Jenkins and docker.sock file permissions
+      file:
+        path: /var/run/docker.sock
+        mode: '777'
+
     - name: System daemon reload
       ansible.builtin.systemd:
         daemon_reload: yes
@@ -61,6 +73,9 @@
     - name: Wait until the initialAdminPassword file is created before continuing
       wait_for:
         path: /var/lib/jenkins/secrets/initialAdminPassword
+        state: present
+        timeout: 15
+        msg: File was not created, either because the installation failed or Jenkins has already been configured.
 
     - name: Getting initial admin pass to Jenkins
       shell: cat /var/lib/jenkins/secrets/initialAdminPassword
