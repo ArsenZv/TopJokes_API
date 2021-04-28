@@ -23,10 +23,17 @@ Username:  | scalac
 ------------- | -------------
 Password:  |  HeyJenkins!
 
-### REST API ###
- 
-
 You can reach it at:
 [ec2-13-59-17-138.us-east-2.compute.amazonaws.com](http://ec2-13-59-17-138.us-east-2.compute.amazonaws.com:8080/)
 Or if you prefer:
 [13.59.17.138](http://13.59.17.138:8080/)
+
+
+### REST API ###
+
+**Port:** 2077
+**IP:** 13.59.17.138
+**Domain:** ec2-13-59-17-138.us-east-2.compute.amazonaws.com
+
+Combined URL to use:
+http://13.59.17.138:8080/
