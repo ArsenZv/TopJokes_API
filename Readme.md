@@ -39,4 +39,4 @@ Or if you prefer:
 **Domain:** ec2-13-59-17-138.us-east-2.compute.amazonaws.com
 
 Combined URL to use:
-http://13.59.17.138:8080/
+http://13.59.17.138:2077/
