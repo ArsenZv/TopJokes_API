@@ -1,10 +1,11 @@
-#Top Jokes REST API#
+# Top Jokes REST API #
 
 This is a small test project where I created a siple python microservise that pull 100 latest jokes/posts
 from bash.org.pl. Then forms them into a JSON file and serves them to the outside. The service is running
 in a docker container and can be build, deployed and turned off usign Jenkins.
 
-##Steps performed:##
+## Steps performed: ##
+
 * Created a microservice serving REST API with GET calls returning 100jokes starting from the newest from bash.org.pl in JSON format;
 
 * Service could be created and launched in Docker container.
@@ -15,9 +16,8 @@ in a docker container and can be build, deployed and turned off usign Jenkins.
 
 * Deployed the microservice on AWS EC2 using CI/CD (Jenkins).
 
-##Access to Jenkins:##
-The credentials are following:
-------------- | -------------
+## Access to Jenkins: ##
+
 Username:  | scalac
 Password:  |  HeyJenkins!
 
