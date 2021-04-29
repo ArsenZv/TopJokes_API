@@ -7,6 +7,7 @@ in a docker container and can be build, deployed and turned off usign Jenkins.
 ## Steps performed: ##
 
 * Created a microservice serving REST API with GET calls returning 100jokes starting from the newest from bash.org.pl in JSON format;
+  * I used Python with Flask micro web framework
 
 * Service could be created and launched in Docker container.
 
@@ -27,7 +28,7 @@ You can reach it via port 8080 at:
 [ec2-13-59-17-138.us-east-2.compute.amazonaws.com](http://ec2-13-59-17-138.us-east-2.compute.amazonaws.com:8080/)
 
 Or if you prefer:
-[13.59.17.138](http://13.59.17.138:8080/)
+[13.59.17.138](http://13.59.17.138:2077/)
 
 
 ### REST API ###
@@ -39,4 +40,4 @@ Or if you prefer:
 **Domain:** ec2-13-59-17-138.us-east-2.compute.amazonaws.com
 
 Combined URL to use:
-http://13.59.17.138:8080/
+http://13.59.17.138:2077/
