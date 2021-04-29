@@ -30,11 +30,6 @@ class Core_logic:
                 if item == 100: 
                     break
         
-        # creating json file
-        # the JSON file is named as TopJokes.json
-        # out_file = open("TopJokes.json", "w")
-        # json.dump(result, out_file, indent = 4, sort_keys = False)
-        # out_file.close()
         self.jokesJSON = json.dumps(result)
 
     def get_jokes(self):
