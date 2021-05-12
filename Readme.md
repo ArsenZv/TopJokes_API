@@ -20,9 +20,7 @@ in a docker container and can be build, deployed and turned off usign Jenkins.
 ## Access Details: ##
 
 ### Jenkins ###
-Username:  | scalac
-------------- | -------------
-Password:  |  HeyJenkins!
+I can provide the credebtial via email
 
 You can reach it via port 8080 at:
 [ec2-13-59-17-138.us-east-2.compute.amazonaws.com](http://ec2-13-59-17-138.us-east-2.compute.amazonaws.com:8080/)
